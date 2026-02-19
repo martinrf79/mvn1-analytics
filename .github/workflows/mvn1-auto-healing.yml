@@ -1,1 +1,19 @@
-﻿
+﻿name: MVN1 Auto-Healing
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+jobs:
+  healing:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.14'
+      - run: pip install -r requirements.txt
+      - run: python validate_all.py
+      - name: Auto-healing
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python healing/auto_healer_claude.py
