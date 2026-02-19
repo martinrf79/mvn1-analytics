@@ -12,7 +12,7 @@ jobs:
         with:
           python-version: '3.14'
       - run: pip install -r requirements.txt
-      - run: python validate_all.py
+      - run: python validate_windows.py
       - name: Auto-healing
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
