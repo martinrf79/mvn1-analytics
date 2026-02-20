@@ -138,10 +138,11 @@ def autofix_dataframe(df):
         mask = df["producto"].str.lower().str.strip().isin(garbage)
         df = df[~mask]
 
-    # 11. Eliminar filas sin datos utiles
+    # 11. Eliminar filas sin datos utiles (pero NUNCA eliminar todo)
     if "precio_venta" in df.columns and "costo" in df.columns:
         mask = (df["precio_venta"] == 0) & (df["costo"] == 0)
-        df = df[~mask]
+        if mask.any() and not mask.all():
+            df = df[~mask]
 
     # 12. Eliminar duplicados exactos
     before = len(df)
