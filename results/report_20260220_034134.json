@@ -1,0 +1,27 @@
+{
+  "resumen_ejecutivo": {
+    "fecha": "2026-02-20 03:41:34",
+    "analisis_realizados": [
+      "rentabilidad"
+    ],
+    "estado_general": "completado_exitosamente"
+  },
+  "resultados": {
+    "rentabilidad": {
+      "margen_total": -1869727.5,
+      "margen_porcentaje": -607.87,
+      "productos_en_perdida": 888
+    }
+  },
+  "confianza": {
+    "status": "success",
+    "score": 80.0,
+    "badge": "ALTO",
+    "nivel": "verde",
+    "descripcion": "Datos confiables, analisis robusto",
+    "confianza": "ALTO"
+  },
+  "recomendaciones": [
+    "URGENTE: Existen productos generando perdida, revisar precios"
+  ]
+}

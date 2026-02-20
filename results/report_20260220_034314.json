@@ -1,0 +1,21 @@
+{
+  "resumen_ejecutivo": {
+    "fecha": "2026-02-20 03:43:14",
+    "analisis_realizados": [
+      "clientes"
+    ],
+    "estado_general": "completado_exitosamente"
+  },
+  "resultados": {},
+  "confianza": {
+    "status": "success",
+    "score": 100.0,
+    "badge": "ALTO",
+    "nivel": "verde",
+    "descripcion": "Datos confiables, analisis robusto",
+    "confianza": "ALTO"
+  },
+  "recomendaciones": [
+    "Datos en buen estado, continuar con monitoreo regular"
+  ]
+}

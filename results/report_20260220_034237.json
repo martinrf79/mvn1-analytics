@@ -1,0 +1,27 @@
+{
+  "resumen_ejecutivo": {
+    "fecha": "2026-02-20 03:42:37",
+    "analisis_realizados": [
+      "auditoria"
+    ],
+    "estado_general": "completado_exitosamente"
+  },
+  "resultados": {
+    "auditoria": {
+      "anomalias": 1,
+      "filas_totales": 1000,
+      "confianza": 85
+    }
+  },
+  "confianza": {
+    "status": "success",
+    "score": 95.0,
+    "badge": "ALTO",
+    "nivel": "verde",
+    "descripcion": "Datos confiables, analisis robusto",
+    "confianza": "ALTO"
+  },
+  "recomendaciones": [
+    "Corregir anomalias detectadas antes del siguiente analisis"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "resumen_ejecutivo": {
+    "fecha": "2026-02-20 03:39:46",
+    "analisis_realizados": [
+      "ventas"
+    ],
+    "estado_general": "fallido"
+  },
+  "resultados": {},
+  "confianza": {
+    "status": "success",
+    "score": 65.0,
+    "badge": "MEDIO",
+    "nivel": "amarillo",
+    "descripcion": "Datos aceptables, revisar anomalias",
+    "confianza": "MEDIO"
+  },
+  "recomendaciones": [
+    "Datos en buen estado, continuar con monitoreo regular"
+  ]
+}
