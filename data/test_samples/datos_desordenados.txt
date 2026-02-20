@@ -1,0 +1,19 @@
+REPORTE DE VENTAS - FORMATO INCONSISTENTE
+================================================
+
+producto: Widget A | precio: 150.50 | cantidad: 5 | costo: 100 | sucursal: Centro
+Venta #2045: Laptop Dell | Precio_Venta=2500.00 | Qty=2 | Costo_Unitario=1800 | Tienda:Norte
+
+SKU,PRODUCTO,PRECIO,CANTIDAD,COSTO,SUCURSAL
+ABC001|Widget B|75.99|10|50.00|Sur
+
+producto=Monitor Samsung | venta=3200 | cantidad=3 | costo=2000 | sucursal=Este
+
+DATOS MIXTOS:
+ProductoPrecioCantidadCostoTienda
+Teclado Mecanico120.00870Oeste
+Monitor LG350022100Centro
+
+Datos sueltos:
+Monitor ASUS - $2800 - 3 unidades - costo $1600 - sucursal Centro
+Cable HDMI, 45.99, 20, 20, Sur

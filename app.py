@@ -14,6 +14,7 @@ from pathlib import Path
 from typing import Dict
 
 from core.pre_parser import PreParser
+from core.pre_analyzer import PreAnalyzer
 from core.data_validator import DataValidator
 from core.analyzer_ventas import AnalizadorVentas
 from core.analyzer_rentabilidad import AnalizadorRentabilidad
@@ -39,6 +40,7 @@ app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_credentials=True, 
 
 JOBS: Dict[str, Dict] = {}
 parser = PreParser()
+pre_analyzer = PreAnalyzer()
 validator = DataValidator()
 analyzer_ventas = AnalizadorVentas()
 analyzer_rentabilidad = AnalizadorRentabilidad()
@@ -101,8 +103,12 @@ async def upload_file(file: UploadFile = File(...)):
         logger.info("[{}] Recibido: {} ({} bytes)".format(job_id, file.filename, len(contents)))
 
         parsed = parser.parse(str(upload_path))
-        if parsed["status"] != "success":
-            raise ValueError("Error parseando: {}".format(parsed.get("error", "Unknown")))
+        if parsed["status"] != "success" or parsed.get("rows", 0) == 0:
+            logger.info("[{}] PreParser fallo, usando PreAnalyzer...".format(job_id))
+            parsed = pre_analyzer.analyze_and_fix(str(upload_path))
+            if parsed["status"] != "success":
+                raise ValueError("Error parseando: {}".format(parsed.get("error", "Unknown")))
+            logger.info("[{}] PreAnalyzer OK: {} filas".format(job_id, parsed.get("rows", 0)))
 
         df = parsed["data"]
         df_fixed = autofix_dataframe(df)
