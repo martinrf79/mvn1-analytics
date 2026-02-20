@@ -1,0 +1,201 @@
+Product line,Unit price,Quantity,COGS,Branch
+Sports and travel,98.51,1,14.69,B
+Food and beverages,45.89,1,76.55,C
+Home and lifestyle,83.48,3,50.46,A
+Food and beverages,81.85,5,22.15,B
+Food and beverages,23.56,3,55.38,A
+Electronic accessories,55.74,1,51.36,C
+Home and lifestyle,72.62,1,31.86,C
+Home and lifestyle,87.25,8,13.52,C
+Home and lifestyle,39.34,2,55.37,A
+Food and beverages,29.82,3,44.02,A
+Sports and travel,74.0,2,62.92,A
+Home and lifestyle,82.86,3,44.01,A
+Food and beverages,41.38,7,68.91,C
+Electronic accessories,18.66,1,46.39,C
+Sports and travel,94.65,8,47.07,B
+Electronic accessories,45.78,2,70.75,B
+Sports and travel,56.6,3,35.26,A
+Food and beverages,85.39,9,15.05,C
+Health and beauty,70.81,7,7.16,C
+Sports and travel,76.17,4,61.64,C
+Electronic accessories,28.82,5,51.52,B
+Food and beverages,58.73,2,57.81,B
+Sports and travel,72.62,8,20.97,C
+Health and beauty,30.57,4,15.23,C
+Health and beauty,25.75,9,6.09,C
+Home and lifestyle,98.4,5,31.29,B
+Home and lifestyle,56.5,9,49.24,C
+Electronic accessories,33.47,4,34.42,C
+Sports and travel,99.66,5,37.81,A
+Sports and travel,96.89,9,72.81,A
+Home and lifestyle,60.25,8,31.12,B
+Sports and travel,89.44,3,43.55,C
+Sports and travel,26.98,1,63.77,C
+Health and beauty,35.1,3,34.74,A
+Home and lifestyle,73.03,4,51.66,B
+Food and beverages,86.2,2,69.68,A
+Home and lifestyle,87.07,1,76.21,A
+Food and beverages,46.41,7,16.03,A
+Health and beauty,89.9,8,74.49,A
+Electronic accessories,86.58,7,41.91,C
+Sports and travel,94.21,5,24.37,C
+Health and beauty,80.68,1,39.44,A
+Sports and travel,70.21,7,78.5,B
+Electronic accessories,62.26,7,41.95,B
+Electronic accessories,43.51,9,29.66,B
+Health and beauty,94.61,3,52.51,B
+Electronic accessories,97.63,9,23.01,A
+Food and beverages,35.55,1,10.69,C
+Electronic accessories,37.48,1,14.67,B
+Sports and travel,53.71,4,14.6,A
+Sports and travel,50.36,9,16.39,B
+Sports and travel,99.5,6,15.41,B
+Sports and travel,25.83,3,53.07,A
+Food and beverages,11.63,1,18.64,C
+Home and lifestyle,54.45,4,30.93,C
+Health and beauty,26.09,9,72.26,A
+Sports and travel,42.98,3,40.55,C
+Electronic accessories,76.98,9,55.07,A
+Sports and travel,74.88,7,17.92,A
+Electronic accessories,37.73,4,19.42,A
+Electronic accessories,58.83,3,8.07,C
+Sports and travel,55.79,5,17.67,A
+Food and beverages,67.27,5,25.89,B
+Electronic accessories,32.54,3,18.28,C
+Electronic accessories,63.09,9,11.65,C
+Sports and travel,98.1,4,14.05,C
+Electronic accessories,53.81,5,39.56,C
+Electronic accessories,91.55,4,20.48,B
+Sports and travel,49.1,5,32.32,C
+Sports and travel,41.51,7,42.76,C
+Health and beauty,68.06,9,56.78,A
+Food and beverages,70.2,7,7.95,C
+Food and beverages,87.78,5,64.96,B
+Electronic accessories,30.72,7,52.09,B
+Food and beverages,54.93,5,11.13,B
+Electronic accessories,61.48,3,70.52,B
+Health and beauty,79.17,7,74.07,C
+Sports and travel,13.92,2,9.58,C
+Sports and travel,99.51,9,25.77,B
+Sports and travel,52.3,1,65.47,B
+Food and beverages,35.16,6,61.12,C
+Health and beauty,89.51,7,18.84,B
+Food and beverages,77.29,8,20.7,A
+Food and beverages,95.78,9,32.79,B
+Health and beauty,39.77,2,41.34,B
+Health and beauty,59.75,2,51.37,A
+Health and beauty,61.51,5,32.67,A
+Health and beauty,98.23,5,39.69,C
+Sports and travel,16.78,6,61.06,C
+Home and lifestyle,37.51,3,7.75,A
+Home and lifestyle,27.18,8,23.93,A
+Health and beauty,34.16,1,58.5,C
+Home and lifestyle,53.68,6,72.14,B
+Home and lifestyle,43.54,4,43.38,A
+Health and beauty,45.52,1,44.91,C
+Home and lifestyle,85.98,7,13.04,B
+Food and beverages,93.7,9,38.56,A
+Electronic accessories,16.34,4,44.95,B
+Electronic accessories,28.8,4,23.19,C
+Health and beauty,70.4,6,25.19,A
+Sports and travel,42.28,3,33.3,B
+Health and beauty,32.87,6,6.51,A
+Sports and travel,36.58,7,29.16,B
+Electronic accessories,39.03,3,20.86,C
+Health and beauty,86.38,7,29.56,C
+Food and beverages,22.3,3,13.98,A
+Home and lifestyle,73.8,2,71.79,B
+Sports and travel,59.75,4,49.52,A
+Home and lifestyle,36.69,8,55.93,A
+Home and lifestyle,47.78,9,64.19,B
+Health and beauty,33.06,7,42.38,B
+Home and lifestyle,65.04,1,11.52,B
+Food and beverages,17.34,3,45.28,C
+Home and lifestyle,10.47,9,49.01,A
+Health and beauty,66.51,1,60.91,A
+Food and beverages,27.48,9,37.37,C
+Electronic accessories,16.38,8,14.57,B
+Home and lifestyle,45.71,1,26.28,C
+Health and beauty,14.57,6,32.23,C
+Electronic accessories,89.8,5,53.44,C
+Electronic accessories,12.49,6,47.81,A
+Sports and travel,62.1,5,31.71,C
+Food and beverages,49.46,6,78.99,A
+Home and lifestyle,70.48,5,50.43,A
+Health and beauty,39.53,5,22.79,A
+Sports and travel,23.95,4,12.63,B
+Food and beverages,98.37,3,16.46,A
+Sports and travel,85.5,3,23.45,A
+Food and beverages,87.44,4,17.05,B
+Food and beverages,32.52,9,18.99,A
+Home and lifestyle,13.5,2,26.38,C
+Food and beverages,37.29,9,18.0,C
+Sports and travel,58.34,1,72.26,A
+Food and beverages,39.4,1,11.02,B
+Home and lifestyle,84.51,5,44.34,C
+Home and lifestyle,34.44,6,35.78,B
+Sports and travel,96.87,6,78.68,B
+Electronic accessories,51.15,3,13.4,C
+Electronic accessories,85.78,7,34.84,B
+Food and beverages,27.49,9,77.71,C
+Health and beauty,47.02,8,69.91,B
+Food and beverages,72.96,6,66.28,C
+Sports and travel,22.45,8,24.34,A
+Sports and travel,21.95,5,17.82,C
+Sports and travel,97.26,8,55.15,C
+Sports and travel,74.31,4,74.7,C
+Sports and travel,13.7,8,46.76,C
+Home and lifestyle,45.89,2,47.87,B
+Electronic accessories,49.02,5,26.0,A
+Sports and travel,76.96,9,62.71,C
+Health and beauty,32.58,4,19.03,B
+Health and beauty,26.59,6,29.28,A
+Health and beauty,17.28,1,36.91,A
+Health and beauty,48.55,9,43.07,A
+Home and lifestyle,71.96,1,23.18,A
+Health and beauty,15.24,5,13.61,C
+Sports and travel,92.37,4,50.8,C
+Food and beverages,49.81,3,26.65,B
+Health and beauty,31.58,6,48.59,B
+Home and lifestyle,18.45,2,16.58,B
+Home and lifestyle,26.46,3,41.09,A
+Health and beauty,94.12,5,44.94,A
+Food and beverages,67.44,9,8.89,C
+Health and beauty,56.5,2,30.25,A
+Home and lifestyle,69.14,8,15.08,A
+Electronic accessories,49.21,2,9.75,A
+Sports and travel,75.7,5,79.25,B
+Home and lifestyle,14.29,7,29.18,B
+Health and beauty,60.94,8,65.74,C
+Sports and travel,24.28,1,24.1,A
+Health and beauty,20.81,6,56.11,A
+Health and beauty,40.77,1,62.02,C
+Electronic accessories,18.26,2,49.67,A
+Sports and travel,18.47,1,40.37,A
+Sports and travel,38.03,5,35.89,B
+Electronic accessories,98.16,9,31.17,C
+Home and lifestyle,25.78,6,74.71,C
+Health and beauty,11.54,1,67.3,C
+Food and beverages,78.7,1,77.38,C
+Health and beauty,82.62,2,14.32,B
+Health and beauty,41.17,9,59.82,B
+Home and lifestyle,51.82,3,75.38,A
+Health and beauty,68.48,1,18.59,A
+Electronic accessories,14.33,5,9.99,A
+Electronic accessories,95.42,7,60.58,A
+Sports and travel,89.8,6,48.09,B
+Food and beverages,33.48,1,68.14,C
+Health and beauty,11.38,5,15.48,B
+Health and beauty,94.01,5,64.65,A
+Home and lifestyle,55.09,6,20.12,B
+Electronic accessories,58.54,3,17.27,C
+Food and beverages,71.56,5,17.32,C
+Sports and travel,65.43,7,66.09,B
+Electronic accessories,94.95,5,54.89,B
+Sports and travel,94.98,5,44.23,B
+Home and lifestyle,88.05,5,31.91,A
+Home and lifestyle,67.28,3,70.79,B
+Health and beauty,82.09,1,34.43,B
+Food and beverages,70.95,5,66.24,B
+Sports and travel,61.6,9,37.94,C

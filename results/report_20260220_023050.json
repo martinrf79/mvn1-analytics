@@ -1,0 +1,31 @@
+{
+  "resumen_ejecutivo": {
+    "fecha": "2026-02-20 02:30:50",
+    "analisis_realizados": [
+      "ventas",
+      "rentabilidad",
+      "auditoria",
+      "clientes",
+      "tendencias"
+    ],
+    "estado_general": "completado_parcialmente"
+  },
+  "resultados": {
+    "auditoria": {
+      "anomalias": 0,
+      "filas_totales": 36,
+      "confianza": 100
+    }
+  },
+  "confianza": {
+    "status": "success",
+    "score": 20.0,
+    "badge": "BAJO",
+    "nivel": "rojo",
+    "descripcion": "Datos con problemas, revision manual necesaria",
+    "confianza": "BAJO"
+  },
+  "recomendaciones": [
+    "Datos en buen estado, continuar con monitoreo regular"
+  ]
+}

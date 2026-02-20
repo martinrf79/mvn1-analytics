@@ -1,0 +1,42 @@
+{
+  "resumen_ejecutivo": {
+    "fecha": "2026-02-20 02:08:46",
+    "analisis_realizados": [
+      "ventas",
+      "rentabilidad",
+      "auditoria",
+      "clientes",
+      "tendencias"
+    ],
+    "estado_general": "completado_exitosamente"
+  },
+  "resultados": {
+    "ventas": {
+      "total": 56547.54000000001,
+      "transacciones": 200,
+      "ticket_promedio": 282.74
+    },
+    "rentabilidad": {
+      "margen_total": 18571.08,
+      "margen_porcentaje": 32.84,
+      "productos_en_perdida": 61
+    },
+    "auditoria": {
+      "anomalias": 0,
+      "filas_totales": 200,
+      "confianza": 100
+    }
+  },
+  "confianza": {
+    "status": "success",
+    "score": 100.0,
+    "badge": "ALTO",
+    "nivel": "verde",
+    "descripcion": "Datos confiables, analisis robusto",
+    "confianza": "ALTO"
+  },
+  "recomendaciones": [
+    "Revisar top productos para optimizar inventario",
+    "URGENTE: Existen productos generando perdida, revisar precios"
+  ]
+}
